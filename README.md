@@ -1,5 +1,9 @@
 ## Client Description ##
-This program is for CS6650 assignment 1. It utilizes HttpClient to build a muti-thread client to make POST requests to a specified URL, and test the performance of the server.
+This program is for CS6650 assignment 1. It utilizes HttpClient to build a muti-thread client to make POST requests to a specified URL, and test the performance of the server.  
+The repository url: <a/>https://github.com/tjuqxb/6650-assignment-1</a>  
+Server url: <a/>http://34.216.68.235/LAB2_2_war</a>  
+Please use the "submission.pdf" file for grading.
+
 ### How it works ###
 The program entry point Class is ClientService.The typical way of running the program(both part 1 and part 2) is specifying the parameters in parameters.xml file(another way is using command line).The user needs to sepcify:   
 
