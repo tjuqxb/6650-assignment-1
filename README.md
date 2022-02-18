@@ -9,7 +9,7 @@ The program entry point Class is ClientService.The typical way of running the pr
 - arg3: mean numbers of ski lifts each skier rides each day (numRuns - default 10, max 20)  
 - arg4: IP address and port number of the server 
 
-Part 1 client would only produce output window results. Part 2 client would produce output window results, a CSV file and a time graph. Users can use class ImageCreateor to create other graphs based on output window results.
+Part 1 client would only produce output window results. Part 2 client would produce output window results, a CSV file and a time graph. Users can use class ImageCreator to create other graphs based on output window results.
 
 ### Main classes ###
 **ClientService**: This is the entry point Class for the program. It would accept user specified paramters, generate multiple SingleClientThread threads, and use a thread pool and multiple CountDownLatch to control the whole process of the 3 phases. After execution of all the generated threads, it would gather information(the thread results are returned using Future) and generate the final results.  
