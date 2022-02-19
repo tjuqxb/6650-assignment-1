@@ -4,5 +4,5 @@
     <numSkiers>20000</numSkiers>
     <numLifts>40</numLifts>
     <numRuns>10</numRuns>
-    <InetAddrAndPort>http://34.216.68.235/LAB2_2_war</InetAddrAndPort>
+    <InetAddrAndPort>http://35.166.15.254/LAB2_2_war</InetAddrAndPort>
 </parameters>

@@ -2,7 +2,7 @@
 **Please note that server IP might change.**  
 This program is for CS6650 assignment 1. It utilizes HttpClient to build a muti-thread client to make POST requests to a specified URL, and test the performance of the server.  
 The repository url: <a/>https://github.com/tjuqxb/6650-assignment-1</a>  
-Server url: （might change due to restart instance）   
+Server url: http://35.166.15.254/LAB2_2_war/（might change due to restart instance）   
 Please use the "submission.pdf" file for grading.
 
 ### How it works ###
