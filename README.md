@@ -69,14 +69,14 @@ throughput = 180000/210.4 = 856
 
 **For 128 threads:**  
 phase1-throughput = 128 * 0.25 * 1000 / 28 = 1140  
-phase2-throughput = min{128 * 1000 / 28, 2500} = max {4572, 2500} = 2500   
+phase2-throughput = min{128 * 1000 / 28, 2500} = min {4572, 2500} = 2500   
 phase3-throughput = 128 * 0.1 * 1000 / 28 = 456  
 walltime = 40000 / 1140 + 120000 / 2500 + 20000 / 456 = 126.9s    
 throughput = 180000/126.9 = 1418  
 
 **For 256 threads:**  
 phase1-throughput = 256 * 0.25 * 1000 / 28 = 2280  
-phase2-throughput = min{256 * 1000 / 28, 2500} = max {9144, 2500} = 2500   
+phase2-throughput = min{256 * 1000 / 28, 2500} = min {9144, 2500} = 2500   
 phase3-throughput = 256 * 0.1 * 1000 / 28 = 912  
 walltime = 40000 / 2280 + 120000 / 2500 + 20000 / 912 = 87.5s  
 throughput = 180000/87.5 = 2057
